@@ -10,3 +10,12 @@ and provides policy-grounded answers using Retrieval-Augmented Generation (RAG).
 - FastAPI service exposing policy-grounded Q&A
 
 ## Project Structure
+
+## API Documentation (Swagger UI)
+
+The FastAPI service exposes interactive API documentation via Swagger UI.
+
+To view it locally:
+```bash
+python -m uvicorn app.api:app --reload
+
